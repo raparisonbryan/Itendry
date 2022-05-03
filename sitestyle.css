@@ -1,0 +1,396 @@
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#haut .menu img.logo {
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 150px;
+	height: 150px;
+	border-radius:20px;
+}
+
+#haut .menu {
+	display: flex;
+	margin-left:-10px;
+	margin-right:-10px;
+    justify-content: space-between;
+	background-color: black;
+}
+
+#haut .menu ul {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+#haut .menu li {
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 200px;
+	text-align: center;
+    border-radius: 5px;	
+}
+
+#haut .menu li a {
+	display: flex;
+	text-decoration: none;
+	text-transform:uppercase;
+	padding: 10px;
+	color: gold;
+}
+
+#haut ul li:hover {
+	background-color:rgb(70,130,180);
+    transition: background-color 0.5s linear;
+}
+
+#haut .menu img.panier {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	border-radius: 15px;
+}
+
+#haut .menu input {
+	display:flex;
+	margin-top: 45px;
+	color: gold;
+	width: 200px;
+	height:30px;
+	background-color: black;
+	border-color: white;
+	border-width: 2px;
+	border-radius:7px;
+}
+
+#haut .recherche {
+	display: flex;
+	margin-top: 14px;
+	margin-right: -200px;
+}
+
+#haut .menu .bouton {
+	display:flex;
+	margin-left: 5px;
+    margin-top: 50px;
+	height: 14px;
+	background-color:black;
+	border-style: none;
+	border-color: black;
+}
+
+.bienvenue img {
+	width:1000px; 
+	margin-bottom:25px;  
+}
+
+/*main*/
+hr {
+    border-style: solid;
+    border-width: 8px ;
+    border-color: black;
+	border-radius: 20px;
+    width: 90%;
+}
+
+#promos .apresbienvenue {
+	display: inline-block;
+	width: 100%;
+	color: black;
+	text-align: center;
+}
+
+#promos {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#promos .gamme {
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#promos .produits {
+	width: 200px;
+}
+
+#promos .produits:hover {
+	transform: scale(0.8);
+	transition: transform 0.5s linear;
+}
+
+#promos .gamme .texte .description {
+	color: rgb(220,20,60);
+	font-size: 20px;
+
+}
+
+#promos .gamme .texte .prix {
+	color: rgb(70,130,180);
+	font-size: 14px;
+}
+
+#promos .gamme .texte a {
+	text-decoration: none;
+}
+
+/*avis*/
+
+#commentaires {
+	background-color: black;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+footer .fin {
+	background-color: black;
+	margin-top: -50px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+#commentaires {
+	display: flex;
+	flex-direction: column;
+	margin-top: 35px;
+	
+	margin-bottom: 50px;
+}
+
+#commentaires .form h2{
+	display:flex;
+	color: gold;
+}
+
+#commentaires form{
+	width: 310px;
+}
+
+#commentaires .form input {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+	color: gold;
+}
+
+#commentaires button{
+	width: 100px;
+	background-color: brown;
+    color: gold;
+    border-style: none;
+}
+
+#commentaires button:hover{
+	background-color: rgb(70,130,180);
+	transition: background-color 0.5s linear;
+}
+
+#footer .fin {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	margin-right: -10px;
+	
+}
+
+#footer .fin img {
+	height: 30px;
+	border-radius:10px;
+}
+
+#footer .fin  p {
+	color: gold;
+}
+
+/*a propos*/
+
+#presentation {
+	background-color:rgb(230,230,250);
+	margin: 30px;
+	margin-top:0px;
+	padding-top:40px;
+	margin-left:-40px;	
+    padding-left: 60px;
+	margin-right:-10px;
+    padding-right: 60px;
+	margin-bottom:-40px;
+    padding-bottom: 60px;
+}
+
+#presentation p {
+	font-size: 15px;
+	font-family: system-ui;
+	text-align: center;
+}
+
+#presentation h2 {
+	color: gold;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-decoration:underline;
+	text-align: center;
+}
+
+/* produits */
+
+#resultat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform:uppercase;
+	padding-bottom: 30px;
+	font-size: 20px;
+	font-family:Nimbus Sans L, sans serif;
+}
+
+#recherches {
+	display: flex;
+	flex-direction: column;
+}
+
+#recherches .guitares .guitare p {
+	display:flex;
+	color: rgb(220,20,60);
+	font-size: 20px;
+	margin-right: 400px;
+}
+	
+#recherches .guitares {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 10px;
+	border-top: 2px solid black;
+}
+
+#recherches .guitares:hover {
+	transform: scale(0.9);
+	transition: transform 0.5s linear;
+}
+		
+#recherches img {
+	display: block;
+	height: 100px;
+	margin-right: 20px;
+}
+		
+#recherches .guitares .prixguitare p {
+	margin-left: 5px;
+	margin-right: 5px;
+	color: rgb(70,130,180);
+	font-size:20px;
+}
+
+/*panier*/
+
+#sousrecherches .total hr {
+    border-style: solid;
+    border-width: 2px ;
+    border-color: black;
+	border-radius: 10px;
+    width: 97%;
+}
+
+#sousrecherches .soustotal {
+	justify-content: center;
+	font-size: 30px;
+    margin-top: 10px;
+	color: gold;
+}
+
+#sousrecherches .soustotal h4 {
+	display: flex;
+	justify-content: center;
+	margin: 2px;
+}	
+
+#valider h3 {
+	color: gold;
+}
+
+#valider .bas form {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: center;
+}
+
+#valider .bas button {
+	text-decoration: none;
+	text-transform:uppercase;
+	padding: 10px;
+	color: gold;
+	background-color: black;
+	border-radius: 5px;
+	font-size: 10px;
+}
+
+/* responsive */
+
+@media(min-width: 400px) and (max-width: 1388px) { 
+
+#haut {
+	width: 100%
+}
+
+#promos {
+	width: 100%
+}
+
+#commentaires {
+	width: 100%
+}
+
+#presentation {
+	width: 100%
+}
+
+#resultat {
+	width: 100%
+}
+
+#recherches {
+	width: 100%
+}
+
+#sousrecherches {
+	width: 100%
+}
+
+#valider {
+	width: 100%
+}
+
+#footer {
+	width: 100%
+}
+
+#commentaires .form{
+	width: 100%
+}
+
+#haut .menu li  {
+	display: flex;
+}
+
+#haut .recherche {
+	display: flex;	
+}
+
+#haut .menu .bouton {
+	display:flex;
+    
+}
